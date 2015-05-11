@@ -1,5 +1,6 @@
 cowserver:
   image: 'manonthemat/cowserver:latest'
   autorestart: always
-  ports: '80:8000'
+  ports:
+    - '80:8000'
 
